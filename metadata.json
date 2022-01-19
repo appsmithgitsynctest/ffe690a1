@@ -4,7 +4,62 @@
   "serverSchemaVersion": 1,
   "publishedDefaultPageName": "Page1",
   "unpublishedDefaultPageName": "Page1",
-  "actionCollectionList": [],
+  "actionCollectionList": [
+    {
+      "unpublishedCollection": {
+        "name": "ParentJsAction1",
+        "pageId": "ParentPage1",
+        "pluginId": "js-plugin",
+        "pluginType": "JS",
+        "actionIds": [],
+        "defaultToBranchedArchivedActionIdsMap": {},
+        "archivedActionIds": [],
+        "actions": [],
+        "archivedActions": [],
+        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: () => {\n\t\t//write code here\n\t}\n}",
+        "variables": [
+          {
+            "name": "myVar1",
+            "value": []
+          },
+          {
+            "name": "myVar2",
+            "value": {}
+          }
+        ]
+      },
+      "publishedCollection": {
+        "name": "ParentJsAction1",
+        "pageId": "ParentPage1",
+        "pluginId": "js-plugin",
+        "pluginType": "JS",
+        "actionIds": [],
+        "defaultToBranchedArchivedActionIdsMap": {},
+        "archivedActionIds": [],
+        "actions": [],
+        "archivedActions": [],
+        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: () => {\n\t\t//write code here\n\t}\n}",
+        "variables": [
+          {
+            "name": "myVar1",
+            "value": []
+          },
+          {
+            "name": "myVar2",
+            "value": {}
+          }
+        ]
+      },
+      "id": "ParentPage1_ParentJsAction1",
+      "deleted": false,
+      "userPermissions": [
+        "read:actions",
+        "execute:actions",
+        "manage:actions"
+      ],
+      "gitSyncId": "61e7bca27547493b42393688_61e7bccc7547493b42393694"
+    }
+  ],
   "editModeTheme": {
     "name": "Classic",
     "isSystemTheme": true,
